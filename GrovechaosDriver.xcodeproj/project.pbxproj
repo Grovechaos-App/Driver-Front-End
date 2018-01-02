@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350746688B5D6FF59DCA4AC6 /* Pods_GrovechaosDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E7EFBFC5DDDBA83835513 /* Pods_GrovechaosDriver.framework */; };
+		5095F3008C1BB1079B3DDA92 /* Pods_GrovechaosDriverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEAC4C615AA99F9905119B8 /* Pods_GrovechaosDriverUITests.framework */; };
+		84C251F71FE08B0B00BD97CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C251F61FE08B0B00BD97CB /* AppDelegate.swift */; };
+		84C251F91FE08B0B00BD97CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C251F81FE08B0B00BD97CB /* ViewController.swift */; };
+		84C251FC1FE08B0B00BD97CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C251FA1FE08B0B00BD97CB /* Main.storyboard */; };
+		84C251FE1FE08B0B00BD97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C251FD1FE08B0B00BD97CB /* Assets.xcassets */; };
+		84C252011FE08B0B00BD97CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C251FF1FE08B0B00BD97CB /* LaunchScreen.storyboard */; };
+		84C2520C1FE08B0B00BD97CB /* GrovechaosDriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2520B1FE08B0B00BD97CB /* GrovechaosDriverUITests.swift */; };
+		84C252181FE0A4C400BD97CB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C252171FE0A4C400BD97CB /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C252081FE08B0B00BD97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C251EB1FE08B0A00BD97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C251F21FE08B0A00BD97CB;
+			remoteInfo = GrovechaosDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A92D860FCF7E3D7EAF79D1B /* Pods-GrovechaosDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrovechaosDriver.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrovechaosDriver/Pods-GrovechaosDriver.release.xcconfig"; sourceTree = "<group>"; };
+		4965CB87CCC2D4821F931C1A /* Pods-GrovechaosDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrovechaosDriver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrovechaosDriver/Pods-GrovechaosDriver.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5E7EFBFC5DDDBA83835513 /* Pods_GrovechaosDriver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrovechaosDriver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		637132AA37F9057BA99CB5D3 /* Pods-GrovechaosDriverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrovechaosDriverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrovechaosDriverUITests/Pods-GrovechaosDriverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84C251F31FE08B0B00BD97CB /* GrovechaosDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrovechaosDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C251F61FE08B0B00BD97CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C251F81FE08B0B00BD97CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C251FB1FE08B0B00BD97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C251FD1FE08B0B00BD97CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C252001FE08B0B00BD97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C252021FE08B0B00BD97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C252071FE08B0B00BD97CB /* GrovechaosDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrovechaosDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C2520B1FE08B0B00BD97CB /* GrovechaosDriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrovechaosDriverUITests.swift; sourceTree = "<group>"; };
+		84C2520D1FE08B0B00BD97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C252171FE0A4C400BD97CB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ABEAC4C615AA99F9905119B8 /* Pods_GrovechaosDriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrovechaosDriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAD64AC46C8744C7F87709A /* Pods-GrovechaosDriverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrovechaosDriverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrovechaosDriverUITests/Pods-GrovechaosDriverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C251F01FE08B0A00BD97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350746688B5D6FF59DCA4AC6 /* Pods_GrovechaosDriver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C252041FE08B0B00BD97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5095F3008C1BB1079B3DDA92 /* Pods_GrovechaosDriverUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C251EA1FE08B0A00BD97CB = {
+			isa = PBXGroup;
+			children = (
+				84C251F51FE08B0B00BD97CB /* GrovechaosDriver */,
+				84C2520A1FE08B0B00BD97CB /* GrovechaosDriverUITests */,
+				84C251F41FE08B0B00BD97CB /* Products */,
+				C8ACE2E8C8870B46214602D3 /* Pods */,
+				F693C5F79DB7E88E05EBABD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84C251F41FE08B0B00BD97CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C251F31FE08B0B00BD97CB /* GrovechaosDriver.app */,
+				84C252071FE08B0B00BD97CB /* GrovechaosDriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C251F51FE08B0B00BD97CB /* GrovechaosDriver */ = {
+			isa = PBXGroup;
+			children = (
+				84C252161FE0A49500BD97CB /* Controllers */,
+				84C251F61FE08B0B00BD97CB /* AppDelegate.swift */,
+				84C251F81FE08B0B00BD97CB /* ViewController.swift */,
+				84C251FA1FE08B0B00BD97CB /* Main.storyboard */,
+				84C251FD1FE08B0B00BD97CB /* Assets.xcassets */,
+				84C251FF1FE08B0B00BD97CB /* LaunchScreen.storyboard */,
+				84C252021FE08B0B00BD97CB /* Info.plist */,
+			);
+			path = GrovechaosDriver;
+			sourceTree = "<group>";
+		};
+		84C2520A1FE08B0B00BD97CB /* GrovechaosDriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84C2520B1FE08B0B00BD97CB /* GrovechaosDriverUITests.swift */,
+				84C2520D1FE08B0B00BD97CB /* Info.plist */,
+			);
+			path = GrovechaosDriverUITests;
+			sourceTree = "<group>";
+		};
+		84C252161FE0A49500BD97CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84C252171FE0A4C400BD97CB /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C8ACE2E8C8870B46214602D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4965CB87CCC2D4821F931C1A /* Pods-GrovechaosDriver.debug.xcconfig */,
+				2A92D860FCF7E3D7EAF79D1B /* Pods-GrovechaosDriver.release.xcconfig */,
+				CAAD64AC46C8744C7F87709A /* Pods-GrovechaosDriverUITests.debug.xcconfig */,
+				637132AA37F9057BA99CB5D3 /* Pods-GrovechaosDriverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F693C5F79DB7E88E05EBABD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E7EFBFC5DDDBA83835513 /* Pods_GrovechaosDriver.framework */,
+				ABEAC4C615AA99F9905119B8 /* Pods_GrovechaosDriverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C251F21FE08B0A00BD97CB /* GrovechaosDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C252101FE08B0B00BD97CB /* Build configuration list for PBXNativeTarget "GrovechaosDriver" */;
+			buildPhases = (
+				EEF350E14DC64BBE3AEA108F /* [CP] Check Pods Manifest.lock */,
+				84C251EF1FE08B0A00BD97CB /* Sources */,
+				84C251F01FE08B0A00BD97CB /* Frameworks */,
+				84C251F11FE08B0A00BD97CB /* Resources */,
+				AAA5F1C3AC0454C8E2394784 /* [CP] Embed Pods Frameworks */,
+				AB76460166EC96BD58D96393 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrovechaosDriver;
+			productName = GrovechaosDriver;
+			productReference = 84C251F31FE08B0B00BD97CB /* GrovechaosDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C252061FE08B0B00BD97CB /* GrovechaosDriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C252131FE08B0B00BD97CB /* Build configuration list for PBXNativeTarget "GrovechaosDriverUITests" */;
+			buildPhases = (
+				F1C0E403AB08BE9064135A1C /* [CP] Check Pods Manifest.lock */,
+				84C252031FE08B0B00BD97CB /* Sources */,
+				84C252041FE08B0B00BD97CB /* Frameworks */,
+				84C252051FE08B0B00BD97CB /* Resources */,
+				FC97BEAEC703BEAF6BC1075C /* [CP] Embed Pods Frameworks */,
+				67EE70702B2BBC06EA93ECA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C252091FE08B0B00BD97CB /* PBXTargetDependency */,
+			);
+			name = GrovechaosDriverUITests;
+			productName = GrovechaosDriverUITests;
+			productReference = 84C252071FE08B0B00BD97CB /* GrovechaosDriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C251EB1FE08B0A00BD97CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Alexander Bui";
+				TargetAttributes = {
+					84C251F21FE08B0A00BD97CB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					84C252061FE08B0B00BD97CB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84C251F21FE08B0A00BD97CB;
+					};
+				};
+			};
+			buildConfigurationList = 84C251EE1FE08B0A00BD97CB /* Build configuration list for PBXProject "GrovechaosDriver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C251EA1FE08B0A00BD97CB;
+			productRefGroup = 84C251F41FE08B0B00BD97CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C251F21FE08B0A00BD97CB /* GrovechaosDriver */,
+				84C252061FE08B0B00BD97CB /* GrovechaosDriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C251F11FE08B0A00BD97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C252011FE08B0B00BD97CB /* LaunchScreen.storyboard in Resources */,
+				84C251FE1FE08B0B00BD97CB /* Assets.xcassets in Resources */,
+				84C251FC1FE08B0B00BD97CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C252051FE08B0B00BD97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67EE70702B2BBC06EA93ECA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrovechaosDriverUITests/Pods-GrovechaosDriverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA5F1C3AC0454C8E2394784 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrovechaosDriver/Pods-GrovechaosDriver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB76460166EC96BD58D96393 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GrovechaosDriver/Pods-GrovechaosDriver-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrovechaosDriver/Pods-GrovechaosDriver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF350E14DC64BBE3AEA108F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrovechaosDriver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C0E403AB08BE9064135A1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrovechaosDriverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC97BEAEC703BEAF6BC1075C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrovechaosDriverUITests/Pods-GrovechaosDriverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C251EF1FE08B0A00BD97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C252181FE0A4C400BD97CB /* MainViewController.swift in Sources */,
+				84C251F91FE08B0B00BD97CB /* ViewController.swift in Sources */,
+				84C251F71FE08B0B00BD97CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C252031FE08B0B00BD97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C2520C1FE08B0B00BD97CB /* GrovechaosDriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C252091FE08B0B00BD97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C251F21FE08B0A00BD97CB /* GrovechaosDriver */;
+			targetProxy = 84C252081FE08B0B00BD97CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C251FA1FE08B0B00BD97CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C251FB1FE08B0B00BD97CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C251FF1FE08B0B00BD97CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C252001FE08B0B00BD97CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C2520E1FE08B0B00BD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C2520F1FE08B0B00BD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C252111FE08B0B00BD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4965CB87CCC2D4821F931C1A /* Pods-GrovechaosDriver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5256G3KXV;
+				INFOPLIST_FILE = GrovechaosDriver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.animenim.GrovechaosDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C252121FE08B0B00BD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A92D860FCF7E3D7EAF79D1B /* Pods-GrovechaosDriver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5256G3KXV;
+				INFOPLIST_FILE = GrovechaosDriver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.animenim.GrovechaosDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84C252141FE08B0B00BD97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAAD64AC46C8744C7F87709A /* Pods-GrovechaosDriverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5256G3KXV;
+				INFOPLIST_FILE = GrovechaosDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.animenim.GrovechaosDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrovechaosDriver;
+			};
+			name = Debug;
+		};
+		84C252151FE08B0B00BD97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637132AA37F9057BA99CB5D3 /* Pods-GrovechaosDriverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5256G3KXV;
+				INFOPLIST_FILE = GrovechaosDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.animenim.GrovechaosDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrovechaosDriver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C251EE1FE08B0A00BD97CB /* Build configuration list for PBXProject "GrovechaosDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C2520E1FE08B0B00BD97CB /* Debug */,
+				84C2520F1FE08B0B00BD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C252101FE08B0B00BD97CB /* Build configuration list for PBXNativeTarget "GrovechaosDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C252111FE08B0B00BD97CB /* Debug */,
+				84C252121FE08B0B00BD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C252131FE08B0B00BD97CB /* Build configuration list for PBXNativeTarget "GrovechaosDriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C252141FE08B0B00BD97CB /* Debug */,
+				84C252151FE08B0B00BD97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C251EB1FE08B0A00BD97CB /* Project object */;
+}
